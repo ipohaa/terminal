@@ -8,7 +8,7 @@ $ pwd
 ```
 
 ## 2. Создать папку ## 
-Создадим каталог, для этого используем команду `mkdir имя_каталога`
+Создадим каталог **homework1**, для этого используем команду `mkdir имя_каталога`
 ```
 $ mkdir homework1
 ```
@@ -29,7 +29,7 @@ $ mkdir folder1 folder2 folder3
 ```
 Отлично! Мы успешно создали три каталога.
 ## 5. Зайти в любую папку ## 
-Перейдём в каталог folder1
+Перейдём в каталог **folder1**
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework1 (main)
 $ cd folder1
@@ -42,7 +42,7 @@ Ipohaa@MainPC MINGW64 /f/git/terminal/homework1/folder1 (main)
 $ touch text1.txt text2.txt text3.txt app1.json app2.json
 ```
 ## 7. Создать 3 папки ## 
-Создаём 3 подкаталога с именами subfolder1, subfolder2, subfolder3 в каталоге folder1
+Создаём 3 подкаталога с именами **subfolder1**, **subfolder2**, **subfolder3** в каталоге **folder1**
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework1/folder1 (main)
 $ mkdir subfolder1 subfolder2 subfolder3
@@ -61,7 +61,7 @@ app1.json  app2.json  subfolder1/  subfolder2/  subfolder3/  text1.txt  text2.tx
 Для того чтобы открыть и начать редактировать файл можно воспользоваться командой `cat > имя_файла.расширение`  
 Так же можно воспользоваться встроенным редактором `vim` 
 Для примера отредактируем файл text1.txt
-### Так будет выглядеть 
+
 ```
 cat > text1.txt
 ```
@@ -77,7 +77,7 @@ Symbol
 Null
 Object
 ```
-Для того чтобы сохранить и выйти из редактирования используем сочетание клавиш `Ctrl + D`
+Для того чтобы сохранить и выйти из редактирования используем сочетание клавиш `Ctrl` + `D`
 
 ### либо второй вариант 
 ```
