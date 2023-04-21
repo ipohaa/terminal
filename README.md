@@ -1,4 +1,26 @@
-Домашнее задание на тему Git Bash 
+Домашнее задание на тему Git Bash  
++ [1. Посмотреть где я](https://github.com/ipohaa/terminal/edit/main/README.md#1-посмотреть-где-я)  
++ [2. Создать папку](https://github.com/ipohaa/terminal/edit/main/README.md#2-создать-папку)  
++ [3. Зайти в папку](https://github.com/ipohaa/terminal/edit/main/README.md#3-зайти-в-папку)  
++ [4. Создать 3 папки](https://github.com/ipohaa/terminal/edit/main/README.md#4-создать-3-папки)  
++ [5. Зайти в любую папку](https://github.com/ipohaa/terminal/edit/main/README.md#5-зайти-в-любую-папку)  
++ [6. Создать 5 файлов (3 .txt, 2 .json)](https://github.com/ipohaa/terminal/edit/main/README.md#6-создать-5-файлов-3-txt-2-json)  
++ [7. Создать 3 папки](https://github.com/ipohaa/terminal/edit/main/README.md#7-создать-3-папки)  
++ [8. Вывести список содержимого папки](https://github.com/ipohaa/terminal/edit/main/README.md#8-вывести-список-содержимого-папки)  
++ [9-11. Открыть .txt файл, написать туда любой текст, сохранить и выйти](https://github.com/ipohaa/terminal/edit/main/README.md#9-11-открыть-txt-файл-написать-туда-любой-текст-сохранить-и-выйти)  
+            -- [Команда cat](https://github.com/ipohaa/terminal/edit/main/README.md#первый-вариант)  
+            -- [Редактор vim](https://github.com/ipohaa/terminal/edit/main/README.md#второй-вариант)
++ [12. Выйти из папки на уровень выше](https://github.com/ipohaa/terminal/edit/main/README.md#12-выйти-из-папки-на-уровень-выше)
++ [13. Переместить любые 2 файла, которые вы создали, в любую другую папку.](https://github.com/ipohaa/terminal/edit/main/README.md#13-переместить-любые-2-файла-которые-вы-создали-в-любую-другую-папку)
++ [14. Скопировать любые 2 файла, которые вы создали, в любую другую папку.](https://github.com/ipohaa/terminal/edit/main/README.md#14-скопировать-любые-2-файла-которые-вы-создали-в-любую-другую-папку)
++ [15. Найти файл по имени](https://github.com/ipohaa/terminal/edit/main/README.md#15-найти-файл-по-имени)
++ [16. Просмотреть содержимое в реальном времени](https://github.com/ipohaa/terminal/edit/main/README.md#16-просмотреть-содержимое-в-реальном-времени-команда-grep-tail-изучите-как-она-работает)  
+             -- [Команда tail](https://github.com/ipohaa/terminal/edit/main/README.md#команда-tail)  
+             -- [Команда grep](https://github.com/ipohaa/terminal/edit/main/README.md#команда-grep)
++ [17. Вывести несколько первых строк из текстового файла](https://github.com/ipohaa/terminal/edit/main/README.md#17-вывести-несколько-первых-строк-из-текстового-файла)
++ [18. Вывести несколько последних строк из текстового файла](https://github.com/ipohaa/terminal/edit/main/README.md#18-вывести-несколько-последних-строк-из-текстового-файла)
++ [19. Просмотреть содержимое длинного файла]()
++ [20. Вывести дату и время]()
 
 ## 1. Посмотреть где я
 Воспользуемся командой `pwd` чтобы посмотреть в каком каталоге мы сейчас находимся относительно корневого каталога.
@@ -173,7 +195,9 @@ $ find -name "app1*"
 ```
 $ tail | grep "ERROR"
 ```
++ `tail -n 25` - выведет последние 25 строк,
 + `tail -f` - будет выводить строки в реальном времени, по мере обновления файла,
++ `tail -c 50` - выведет указанное количество байт с конца файла. 
 
 Чтобы отследить обновления в файле используем команду `tail -f`
 ```
