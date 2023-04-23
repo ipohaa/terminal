@@ -23,15 +23,18 @@ $ pwd
 ```
 ## 5. Находясь в папке dir_1 создать пустой текстовый файл tf_1.txt
 ```
-$
+Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1
+$ touch tf_1.txt
 ```
 ## 6. Находясь в папке dir_1 через команду cat создать текстовый файл tf_2.txt со следующими строками: 
 - the first 1
 - the second 2
 - the third 3
 ```
-$
+Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1
+$ cat > tf_2.txt
 ```
+после ввода команды появляется возможность редактировать текстовый файл, запишем нужные строки:
 ```
 the first 1
 the second 2
@@ -39,39 +42,67 @@ the third 3
 ```
 ## 7. Зайти в папку inner_dir_1
 ```
-$
+Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1
+$ cd inner_dir_1
 ```
 ## 8. Через cat сделать текстовый файл tf_3.txt  c любыми строками
 ```
-$
+Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1/inner_dir_1
+$ cat > tf_3.txt
+```
+```
+The simple text
+1
+2
+3
 ```
 ## 9. Через cat добавить в текстовый файл tf_3.txt строку “the second 2”
 ```
-$
+Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1/inner_dir_1
+$ cat >> tf_3.txt
+```
+```
+the second 2
 ```
 ## 10. Через cat добавить в текстовый файл tf_3.txt строку “the sec 2”
 ```
-$
+Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1/inner_dir_1
+$ cat >> tf_3.txt
+```
+```
+the sec 2
 ```
 ## 11. Через cat добавить в текстовый файл tf_2.txt строку “the sec 3”
 ```
-$
+Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1/inner_dir_1
+$ cat >> /f/git/terminal/homework2/dir_1/tf_2.txt
+```
+```
+the sec 3
 ```
 ## 12. Через cat добавить в текстовый файл tf_3.txt строку “the SeCoNd 2”
 ```
-$
+Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1/inner_dir_1
+$ cat >> tf_3.txt
+```
+```
+the SeCoNd 2
 ```
 ## 13. Через cat добавить в текстовый файл tf_2.txt строку “the seConD 2”
 ```
-$
+Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1/inner_dir_1
+$ cat >> /f/git/terminal/homework2/dir_1/tf_2.txt
+```
+```
+the seConD 2
 ```
 ## 14. Сделать текстовый файл tf_4.txt в котором будет 15 строк.
 ```
-$
+$ seq 15 | cat > tf_4.txt
 ```
 ## 15. Сделать текстовый файл tF_5.txt в котором будет 13 строк.
 ```
-$
+$ seq 13 | cat > tF_5.txt
 ```
 ## 16. Вывести список всех файлов в папке.
 ```
