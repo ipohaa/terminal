@@ -126,6 +126,12 @@ $ cat >> ../tf_2.txt
 ```
 the sec 3
 ```
+либо  
+
+```
+Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1/inner_dir_1
+$ echo 'the sec 3' >> ../tf_2.txt
+```
 ## 12. Через `cat` добавить в текстовый файл tf_3.txt строку "the SeCoNd 2"
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1/inner_dir_1
@@ -141,6 +147,11 @@ $ cat >> ../tf_2.txt
 ```
 ```
 the seConD 2
+```
+либо 
+```
+Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1/inner_dir_1
+$ echo 'the seConD 2' >> ../tf_2.txt
 ```
 ## 14. Создать текстовый файл tf_4.txt в котором будет 15 строк
 ```
