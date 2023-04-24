@@ -22,6 +22,8 @@
 + [18. Вывести несколько последних строк из текстового файла](https://github.com/ipohaa/terminal/tree/main/homework1#18-вывести-несколько-последних-строк-из-текстового-файла)
 + [19. Просмотреть содержимое длинного файла](https://github.com/ipohaa/terminal/tree/main/homework1#19-просмотреть-содержимое-длинного-файла-команда-less-изучите-как-она-работает)
 + [20. Вывести дату и время](https://github.com/ipohaa/terminal/tree/main/homework1#20-вывести-дату-и-время)
++ [21. * Отправить HTTP запрос на сервер.](https://github.com/ipohaa/terminal/tree/main/homework1#21-отправить-http-запрос-на-сервер)
++ [22. * Написать скрипт который выполнит пункты автоматически](https://github.com/ipohaa/terminal/tree/main/homework1#22-написать-скрипт-который-выполнит-автоматически-пункты-3-4-5-6-7-8-13)
 
 ## 1. Посмотреть где я
 Воспользуемся командой `pwd` чтобы посмотреть в каком каталоге мы сейчас находимся относительно корневого каталога.
@@ -335,3 +337,33 @@ $ date
 Tue Apr 18 14:30:22 RTZ 2023
 ```
 =========
+
+## *21. Отправить HTTP запрос на сервер.
+Для того чтобы отправить запрос воспользуемся командой `curl` и методом `-X GET`
+```
+curl -X GET http://162.55.220.72:5005/terminal-hw-request
+```
+результатом выполнения запроса является ответ от сервера статус-код `404 Not Found`
+```
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   232  100   232    0     0   1969      0 --:--:-- --:--:-- --:--:--  1982<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+```
+## *22. Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
+```
+#!/bin/bash
+cd homework_1
+mkdir folder1 folder2 folder3
+cd folder1
+touch text1.txt text2.txt text3.txt app1.json app2.json
+mkdir subfolder1 subfolder2 subfolder3
+ls
+cd ..
+mv folder1/{text1.txt,text2.txt} folder2
+
+exec $SHELL
+```
+Скрипт [>>link](https://github.com/ipohaa/terminal/blob/main/homework1/script.sh)
