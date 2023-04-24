@@ -369,11 +369,11 @@ inner_dir_1/tF_5.txt
 tf_2.txt
 ```
 ## 33. Вывести в терминал 4 последних строк любого текстового файла
+Команда `tail -n X` — выведет последние X строк  
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1 (hw2)
 $ tail -n 4 inner_dir_1/tF_5.txt
 ```
-`tail -n 17` — выведет последние 17 строк
 ```
 10
 11
@@ -381,11 +381,11 @@ $ tail -n 4 inner_dir_1/tF_5.txt
 13
 ```
 ## 34. Вывести в терминал 4 первые строки любого текстового файла.
+Команда `head -n X` — выведет первые X строк  
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1 (hw2)
 $ head -n 4 inner_dir_1/tF_5.txt
 ```
-`head -n 13` — выведет первые 13 строк
 ```
 1
 2
