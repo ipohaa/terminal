@@ -414,7 +414,7 @@ $  grep -rlw sec | xargs cp -t inner_dir_3
 ## 38. Команда в одну строку. Найти все строки c "sec" во всех текстовых файлах, скопировать и вставить эти строки в один новый созданный текстовый файл.
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1 (hw2)
-$ mkdir inner_dir_3 | xargs grep -rlw sec | xargs mv -t inner_dir_3
+$ grep -r sec | xargs echo >> new_tf.txt
 ```
 ## 39. Команда в одну строку. Удалить текстовые файлы у которых в содержимом есть слово "sec"
 ```
