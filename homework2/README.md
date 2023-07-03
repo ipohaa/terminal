@@ -41,34 +41,34 @@
 + [39. Команда в одну строку. Удалить текстовые файлы у которых в содержимом есть слово "sec"](https://github.com/ipohaa/terminal/tree/main/homework2#39-команда-в-одну-строку-удалить-текстовые-файлы-у-которых-в-содержимом-есть-слово-sec)
 + [40. Просто вывести в терминал строку "Good job!!"](https://github.com/ipohaa/terminal/tree/main/homework2#40-просто-вывести-в-терминал-строку-good-job)
 
-## 1. Сделать папку dir_1
+### 1. Сделать папку dir_1
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2 (hw2)
 $ mkdir dir_1
 ```
-## 2. Зайти в папку dir_1
+### 2. Зайти в папку dir_1
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2 (hw2)
 $ cd dir_1
 ```
-## 3. Создать папку **inner_dir_1**
+### 3. Создать папку **inner_dir_1**
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1 (hw2)
 $ mkdir inner_dir_1
 ```
-## 4. Посмотреть где ты находишься
+### 4. Посмотреть где ты находишься
 ```
 $ pwd
 ```
 ```
 /f/git/terminal/homework2/dir_1
 ```
-## 5. Находясь в папке dir_1 создать пустой текстовый файл tf_1.txt
+### 5. Находясь в папке dir_1 создать пустой текстовый файл tf_1.txt
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1 (hw2)
 $ touch tf_1.txt
 ```
-## 6. Находясь в папке dir_1 через команду `cat` создать текстовый файл tf_2.txt
+### 6. Находясь в папке dir_1 через команду `cat` создать текстовый файл tf_2.txt
 
 Необходимо создать текстовый файл со следующими строками:
 - the first 1
@@ -86,12 +86,12 @@ the third 3
 ```
 Для того чтобы остановить ввод нужно нажать сочетание `Ctrl`+`D`
 
-## 7. Зайти в папку inner_dir_1
+### 7. Зайти в папку inner_dir_1
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1 (hw2)
 $ cd inner_dir_1
 ```
-## 8. Через `cat` сделать текстовый файл tf_3.txt  c любыми строками
+### 8. Через `cat` сделать текстовый файл tf_3.txt  c любыми строками
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1/inner_dir_1 (hw2)
 $ cat > tf_3.txt
@@ -102,7 +102,7 @@ The simple text
 2
 3
 ```
-## 9. Через `cat` добавить в текстовый файл tf_3.txt строку "the second 2"
+### 9. Через `cat` добавить в текстовый файл tf_3.txt строку "the second 2"
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1/inner_dir_1 (hw2)
 $ cat >> tf_3.txt
@@ -110,7 +110,7 @@ $ cat >> tf_3.txt
 ```
 the second 2
 ```
-## 10. Через `cat` добавить в текстовый файл tf_3.txt строку "the sec 2"
+### 10. Через `cat` добавить в текстовый файл tf_3.txt строку "the sec 2"
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1/inner_dir_1
 $ cat >> tf_3.txt
@@ -118,7 +118,7 @@ $ cat >> tf_3.txt
 ```
 the sec 2
 ```
-## 11. Через `cat` добавить в текстовый файл tf_2.txt строку "the sec 3"
+### 11. Через `cat` добавить в текстовый файл tf_2.txt строку "the sec 3"
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1/inner_dir_1 (hw2)
 $ cat >> ../tf_2.txt
@@ -132,7 +132,7 @@ the sec 3
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1/inner_dir_1 (hw2)
 $ echo 'the sec 3' >> ../tf_2.txt
 ```
-## 12. Через `cat` добавить в текстовый файл tf_3.txt строку "the SeCoNd 2"
+### 12. Через `cat` добавить в текстовый файл tf_3.txt строку "the SeCoNd 2"
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1/inner_dir_1 (hw2)
 $ cat >> tf_3.txt
@@ -140,7 +140,7 @@ $ cat >> tf_3.txt
 ```
 the SeCoNd 2
 ```
-## 13. Через `cat` добавить в текстовый файл tf_2.txt строку "the seConD 2"
+### 13. Через `cat` добавить в текстовый файл tf_2.txt строку "the seConD 2"
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1/inner_dir_1 (hw2)
 $ cat >> ../tf_2.txt
@@ -153,17 +153,17 @@ the seConD 2
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1/inner_dir_1 (hw2)
 $ echo 'the seConD 2' >> ../tf_2.txt
 ```
-## 14. Создать текстовый файл tf_4.txt в котором будет 15 строк
+### 14. Создать текстовый файл tf_4.txt в котором будет 15 строк
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1/inner_dir_1 (hw2)
 $ seq 15 | cat > tf_4.txt
 ```
-## 15. Создать текстовый файл tF_5.txt в котором будет 13 строк
+### 15. Создать текстовый файл tF_5.txt в котором будет 13 строк
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1/inner_dir_1 (hw2)
 $ seq 13 | cat > tF_5.txt
 ```
-## 16. Вывести список всех файлов в папке
+### 16. Вывести список всех файлов в папке
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1/inner_dir_1 (hw2)
 $ ls
@@ -171,12 +171,12 @@ $ ls
 ```
 tF_5.txt  tf_3.txt  tf_4.txt
 ```
-## 17. Выйти из папки inner_dir_1
+### 17. Выйти из папки inner_dir_1
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1/inner_dir_1 (hw2)
 $ cd ..
 ```
-## 18. Вывести содержимое файла tf_3.txt в терминал
+### 18. Вывести содержимое файла tf_3.txt в терминал
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1 (hw2)
 $ cat */tf_3.txt
@@ -190,7 +190,7 @@ the second 2
 the sec 2
 the SeCoNd 2
 ```
-## 19. Найти путь к файлу tf_4.txt
+### 19. Найти путь к файлу tf_4.txt
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1 (hw2)
 $ find -name tf_4.txt
@@ -199,7 +199,7 @@ $ find -name tf_4.txt
 ```
 ./inner_dir_1/tf_4.txt
 ```
-## 20. Очистить файл tf_4.txt от содержимого без удаления самого файла.
+### 20. Очистить файл tf_4.txt от содержимого без удаления самого файла.
 ```
 $ > tf_4.txt
 ```
@@ -215,7 +215,7 @@ $ find -name 'tf*'
 ./tf_2.txt
 ./tf_4.txt
 ```
-## 22. Найти путь к файлам у которых есть "tf" в названии и буквы в любом регистре.
+### 22. Найти путь к файлам у которых есть "tf" в названии и буквы в любом регистре.
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1 (hw2)
 $ find -iname 'tf*'
@@ -229,7 +229,7 @@ $ find -iname 'tf*'
 ./tf_2.txt
 ./tf_4.txt
 ```
-## 23. Найти строки в файлах где есть комбинация букв "sec" в текущей папке
+### 23. Найти строки в файлах где есть комбинация букв "sec" в текущей папке
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1 (hw2)
 $ grep -n 'sec' *.txt
@@ -239,7 +239,7 @@ $ grep -n 'sec' *.txt
 tf_2.txt:2:the second 2
 tf_2.txt:4:the sec 3
 ```
-## 24. Найти строки в файлах где есть комбинация букв "sec" в любом регистре в текущей папке
+### 24. Найти строки в файлах где есть комбинация букв "sec" в любом регистре в текущей папке
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1 (hw2)
 $ grep -in 'sec' *.txt
@@ -250,7 +250,7 @@ tf_2.txt:2:the second 2
 tf_2.txt:4:the sec 3
 tf_2.txt:5:the seConD 2
 ```
-## 25. Найти строки в файлах где есть только комбинация букв "sec" в текущей папке
+### 25. Найти строки в файлах где есть только комбинация букв "sec" в текущей папке
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1 (hw2)
 $ grep -n '\<sec\>' *.txt
@@ -259,7 +259,7 @@ $ grep -n '\<sec\>' *.txt
 ```
 tf_2.txt:4:the sec 3
 ```
-## 26. Найти строки в файлах где есть только комбинация букв "sec" в любом регистре в текущей папке
+### 26. Найти строки в файлах где есть только комбинация букв "sec" в любом регистре в текущей папке
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1 (hw2)
 $ grep -in '\<sec\>' *.txt
@@ -267,7 +267,7 @@ $ grep -in '\<sec\>' *.txt
 ```
 tf_2.txt:4:the sec 3
 ```
-## 27. Найти строки в файлах где есть комбинация букв "second" в текущей папке
+### 27. Найти строки в файлах где есть комбинация букв "second" в текущей папке
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1 (hw2)
 $ grep -n 'second' *.txt
@@ -276,7 +276,7 @@ $ grep -n 'second' *.txt
 ```
 tf_2.txt:2:the second 2
 ```
-## 28. Найти строки в файлах где есть комбинация букв "second" в любом регистре в текущей папке
+### 28. Найти строки в файлах где есть комбинация букв "second" в любом регистре в текущей папке
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1 (hw2)
 $ grep -in 'second' *.txt
@@ -285,7 +285,7 @@ $ grep -in 'second' *.txt
 tf_2.txt:2:the second 2
 tf_2.txt:5:the seConD 2
 ```
-## 29. Найти строки в файлах где есть комбинация букв "second" во всех папках ниже уровнем
+### 29. Найти строки в файлах где есть комбинация букв "second" во всех папках ниже уровнем
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1 (hw2)
 $ grep -rn 'second' *
@@ -294,7 +294,7 @@ $ grep -rn 'second' *
 inner_dir_1/tf_3.txt:5:the second 2
 tf_2.txt:2:the second 2
 ```
-## 30. Найти только путь и название файла в строках которых есть комбинация букв "second" в текущей папке
+### 30. Найти только путь и название файла в строках которых есть комбинация букв "second" в текущей папке
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1 (hw2)
 grep -l 'second' *.*
@@ -302,7 +302,7 @@ grep -l 'second' *.*
 ```
 tf_2.txt
 ```
-## 31. Найти все строки во всех файлах где нет комбинации "second"
+### 31. Найти все строки во всех файлах где нет комбинации "second"
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1 (hw2)
 $ grep -rv 'second' *
@@ -356,7 +356,7 @@ tf_2.txt:the seConD 2
 ```
 </details>
 
-## 32. Найти только название и путь к файлам где нет комбинации "second"
+### 32. Найти только название и путь к файлам где нет комбинации "second"
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1 (hw2)
 $ grep -rlv 'second' *
@@ -368,7 +368,7 @@ inner_dir_1/tf_4.txt
 inner_dir_1/tF_5.txt
 tf_2.txt
 ```
-## 33. Вывести в терминал 4 последних строк любого текстового файла
+### 33. Вывести в терминал 4 последних строк любого текстового файла
 Команда `tail -n X` — выведет последние X строк  
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1 (hw2)
@@ -380,7 +380,7 @@ $ tail -n 4 inner_dir_1/tF_5.txt
 12
 13
 ```
-## 34. Вывести в терминал 4 первые строки любого текстового файла.
+### 34. Вывести в терминал 4 первые строки любого текстового файла.
 Команда `head -n X` — выведет первые X строк  
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1 (hw2)
@@ -392,12 +392,12 @@ $ head -n 4 inner_dir_1/tF_5.txt
 3
 4
 ```
-## 35. Команда в одну строку. Создать папку и создать текстовый файл с содержиммым.
+### 35. Команда в одну строку. Создать папку и создать текстовый файл с содержиммым.
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1 (hw2)
 $ mkdir inner_dir_2 && touch inner_dir_2/tf_6.txt
 ```
-## 36. Команда в одну строку. Переместить в любую одну папку текстовые файлы у которых в содержимом есть слово "sec"
+### 36. Команда в одну строку. Переместить в любую одну папку текстовые файлы у которых в содержимом есть слово "sec"
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1 (hw2)
 $ grep -rlw sec | xargs mv -bt inner_dir_2
@@ -406,22 +406,22 @@ $ grep -rlw sec | xargs mv -bt inner_dir_2
 ```
 команда_1 | xargs опции команда_2 аргументы
 ```
-## 37. Команда в одну строку. Скопировать в любую одну папку текстовые файлы у которых в содержимом есть слово "sec"
+### 37. Команда в одну строку. Скопировать в любую одну папку текстовые файлы у которых в содержимом есть слово "sec"
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1 (hw2)
 $  grep -rlw sec | xargs cp -t inner_dir_3
 ```
-## 38. Команда в одну строку. Найти все строки c "sec" во всех текстовых файлах, скопировать и вставить эти строки в один новый созданный текстовый файл.
+### 38. Команда в одну строку. Найти все строки c "sec" во всех текстовых файлах, скопировать и вставить эти строки в один новый созданный текстовый файл.
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1 (hw2)
 $ grep -rh sec >> new_tf.txt
 ```
-## 39. Команда в одну строку. Удалить текстовые файлы у которых в содержимом есть слово "sec"
+### 39. Команда в одну строку. Удалить текстовые файлы у которых в содержимом есть слово "sec"
 ```
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework2/dir_1 (hw2)
 $ grep -rlw sec | xargs rm
 ```
-## 40. Просто вывести в терминал строку "Good job!!"
+### 40. Просто вывести в терминал строку "Good job!!"
 ```
-$ echo 'Good job!!!'
+$ echo 'Good job!!'
 ```
