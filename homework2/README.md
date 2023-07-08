@@ -1,4 +1,4 @@
-Домашнее задание #2 на тему Git Bash
+### Домашнее задание #2 на тему Git Bash
 
 + [1. Сделать папку dir_1](https://github.com/ipohaa/terminal/tree/main/homework2#1-сделать-папку-dir_1)
 + [2. Зайти в папку dir_1](https://github.com/ipohaa/terminal/tree/main/homework2#2-зайти-в-папку-dir_1)
