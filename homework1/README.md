@@ -1,4 +1,4 @@
-Домашнее задание #1 на тему Git Bash  
+### Домашнее задание #1 на тему Git Bash  
 Ознакомление с terminal и расширенное описание выполняемых команд
 + [1. Посмотреть где я](https://github.com/ipohaa/terminal/tree/main/homework1#1-посмотреть-где-я)  
 + [2. Создать папку](https://github.com/ipohaa/terminal/tree/main/homework1#2-создать-папку)  
