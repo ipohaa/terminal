@@ -338,21 +338,29 @@ Tue Apr 18 14:30:22 RTZ 2023
 ```
 =========
 
-### *21. Отправить HTTP запрос на сервер.
+### ***21. Отправить HTTP запрос на сервер.
 Для того чтобы отправить запрос воспользуемся командой `curl` и методом `-X GET`
 ```
-$ curl -X GET http://162.55.220.72:5005/terminal-hw-request
+$ curl -X GET http://162.55.220.72:5006/terminal-hw-request
 ```
-результатом выполнения запроса является ответ от сервера статус-код `404 Not Found`
+результатом выполнения запроса является ответ JSON
 ```console
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-100   232  100   232    0     0   1969      0 --:--:-- --:--:-- --:--:--  1982<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
-<title>404 Not Found</title>
-<h1>Not Found</h1>
-<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+100   283  100   283    0     0   2615      0 --:--:-- --:--:-- --:--:--  2644{
+  "Intro": "Hello!! This is your the first response from server",
+  "Tasks": {
+    "Task_1": "Send the next URL in terminal: http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)",
+    "result": [
+      "Your_String",
+      "Your_number"
+    ]
+  }
+}
+
+
 ```
-### *22. Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
+### ***22. Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
 ```bash
 #!/bin/bash
 cd homework_1
