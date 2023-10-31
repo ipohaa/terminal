@@ -160,7 +160,7 @@ $ mv файл(-ы) путь
 Переместим файлы **text1.txt** и **text2.txt** из каталога **folder1** в **folder2**
 ```console
 Ipohaa@MainPC MINGW64 /f/git/terminal/homework1 (main)
-$ mv folder1/{text1.txt,text2.txt} folder2
+$ mv folder1/text{1,2}.txt folder2
 ```
 
 ### 14. Скопировать любые 2 файла, которые вы создали, в любую другую папку.
